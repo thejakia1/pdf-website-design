@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Pdf</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/983db25047.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="container text-center mt-5">
+        <div class="">
+            <h1 class="header-title fw-bold">Print your PDF Online</h1>
+            <h2 class="upload-title">Upload your PDF to get started</h2>
+            <p class="header-descriptions">
+                Hardcover or paperback book using a wide range of paper, color, and binding options. <br>
+                The most common print-on-demand book, perfect for a variety of projects.
+            </p>
+        </div>
+    </section>
+
+    <section class="container uploads">
+        <div class="upload-options d-md-flex">
+            <div class="upload-button mb-2 px-auto">
+                <input type="file" id="file" />
+                <label class="btn btn-info fw-bold" for="file"><i class="fas fa-upload"></i>BEGIN
+                    UPLOAD</label>
+            </div>
+            <div class="file-info">
+                <p>Sent File:</p>
+                <p>File Size:</p>
+                <p>File Type:</p>
+                <p>File Pages:</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container order-steps mt-3 px-5">
+        <div class="book-options">
+            <div>
+                <h3 class="fw-bold">Book Options</h3>
+            </div>
+            <div class="ps-3">
+                <h4>Select the Colors, Paper Type, Binding and Cover finish for <br> your Book.</h4>
+                <p><i class="fas fa-globe"></i> This icon indicates that the option is available for Global Distribution
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container bookSize mt-3 px-5">
+        <div class="Step-Length">
+            <span class="Step-Number">1</span>
+        </div>
+        <div class="bookSize-title">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Book Size and Page Count</h5>
+                </div>
+                <div class="col-md-8">
+                    <p>Select a Book Size and Page Count for your Book.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bookSize-form">
+            <div class="row">
+                <div class="col-md-9">
+                    <form>
+                        <label class="fw-bold" for="">BOOK SIZE</label>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="inputGroupSelect02">
+                                <option selected>A5 (5.83 x 8.27 in 148 x 210 mm)</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <span class="input-group-text" for="inputGroupSelect02"><i class="fas fa-globe"></i></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <form>
+                        <label class="fw-bold" for="">PAGE COUNT</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-text" for="inputGroupSelect02"><i class="fas fa-globe"></i></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-3 px-5 step2">
+        <div class="Step-Length">
+            <span class="Step-Number">2</span>
+        </div>
+        <div class="product-details">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Interior Color</h5>
+                </div>
+                <div class="col-md-8">
+                    <p>Standard ink is recommended for Books using text and limited graphics, while Premium is ideal for
+                        rich colors and more complex graphics.</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-images">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/interior-color-1.jpg" download="new-filename"><i
+                                    class="fas fa-info"></i></a>
+                            <img src="images/interior-color-1.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input px-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">Black & White Premium</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/interior-color-2.jpg" download="new-filename"><i
+                                    class="fas fa-info"></i></a>
+                            <img src="images/interior-color-2.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input px-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">Black & White Standard</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/interior-color-3.jpg" download="new-filename"><i
+                                    class="fas fa-info"></i></a>
+                            <img src="images/interior-color-3.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">Color Premium</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/interior-color-4.jpg" download="new-filename"><i
+                                    class="fas fa-info"></i></a>
+                            <img src="images/interior-color-4.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">Color Standard</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-3 px-5 step3">
+        <div class="Step-Length">
+            <span class="Step-Number">3</span>
+        </div>
+        <div class="product-details">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Paper Type</h5>
+                </div>
+                <div class="col-md-8">
+                    <p>For Premium ink, we suggest the heavier 80# paper. For more economical options, use Standard ink
+                        and the 60# paper weight.</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-images">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/paper1.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                            <img src="images/paper1.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">60# Cream</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/paper2.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                            <img src="images/paper2.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">60# White</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/paper3.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                            <img src="images/paper3.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">80# Coated White</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-3 px-5 step4">
+        <div class="Step-Length">
+            <span class="Step-Number">4</span>
+        </div>
+        <div class="product-details">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Binding Type</h5>
+                </div>
+                <div class="col-md-8">
+                    <p>Select a binding type for your Book.</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-images">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/interior-color-1.jpg" download="new-filename"><i
+                                    class="fas fa-info"></i></a>
+                            <img src="images/binding1.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">60# Cream</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/binding2.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                            <img src="images/binding2.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">60# White</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/binding3.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                            <img src="images/binding3.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">80# Coated White</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/binding4.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                            <img src="images/binding4.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">80# Coated White</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-top">
+                            <a href="images/binding5.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                            <img src="images/binding5.jpg" class="circle-img" alt="...">
+                        </div>
+                        <div class="card-body d-flex">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <h5 class="card-title fw-bold ps-3">80# Coated White</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-3 px-5 step5">
+        <div class="Step-Length">
+            <span class="Step-Number">5</span>
+        </div>
+        <div class="product-details">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Cover Finish</h5>
+                </div>
+                <div class="col-md-8">
+                    <p>Select the cover finish for your Book.</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-options d-md-flex">
+            <div class="product-images w-100">
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body d-flex">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <h5 class="card-title fw-bold ps-3">Glossy</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card h-100">
+                            <div class="card-top">
+                                <div class="card-body d-flex">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <h5 class="card-title fw-bold ps-3">Matte</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-img-container d-md-flex pe-5">
+                <div class="side-img mx-auto">
+                    <a href="images/book4.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                    <figure>
+                        <img src="images/book4.jpg" class="circle-img" alt="...">
+                        <figcaption class="text-center">Glossy</figcaption>
+                    </figure>
+                </div>
+                <div class="side-img mx-auto">
+                    <a href="images/book3.jpg" download="new-filename"><i class="fas fa-info"></i></a>
+                    <figure>
+                        <img src="images/book3.jpg" class="circle-img" alt="...">
+                        <figcaption class="text-center">Matte</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-3 px-5 billing">
+        <h3 class="product-details fw-bold">Billing Details</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <label for="basic-url" class="form-label">
+                        <h5 class="fw-bold">Full Name *</h5>
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="Name" class="form-control" id="basic-url"
+                            aria-describedby="basic-addon3">
+                    </div>
+                    <label for="basic-url" class="form-label">
+                        <h5 class="fw-bold">Contact Number *</h5>
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="tel" placeholder="92 312 3456789" class="form-control" id="basic-url"
+                            aria-describedby="basic-addon3">
+                    </div>
+                    <label for="basic-url" class="form-label">
+                        <h5 class="fw-bold">Email Address *</h5>
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="email" placeholder="Email" class="form-control" id="basic-url"
+                            aria-describedby="basic-addon3">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <label for="basic-url" class="form-label">
+                        <h5 class="fw-bold">Address *</h5>
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="House Number & Street Name" class="form-control" id="basic-url"
+                            aria-describedby="basic-addon3">
+                    </div>
+                    <label for="basic-url" class="form-label">
+                        <h5 class="fw-bold">Apartment *</h5>
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="Apartment, Unit, Suite etc. (optional)" class="form-control"
+                            id="basic-url" aria-describedby="basic-addon3">
+                    </div>
+                    <label for="basic-url" class="form-label">
+                        <h5 class="fw-bold">City *</h5>
+                    </label>
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="Lahore" class="form-control" id="basic-url"
+                            aria-describedby="basic-addon3">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row order-note">
+            <div class="col-md-12">
+                <h3 class="fw-bold">Order Notes (optional)</h3>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="order-btn d-flex justify-content-center mx-auto">
+            <button class="btn text-white fw-bold" type="submit"><i class="fas fa-shopping-cart"></i> SUBMIT
+                ORDER</button>
+        </div>
+    </section>
+
+    <section class="container mt-5 px-5 summary">
+        <div class="row order-summary mx-md-5">
+            <div class="col-md-6 px-md-5">
+                <h5 class="fw-bold">Your Selection</h5>
+                <div class="d-flex justify-content-between">
+                    <p>Book Size</p>
+                    <p class="text-end">A5 (5.83 x 8.27 in 148 x 210 mm)</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p>Page Count</p>
+                    <p class="text-end">200</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p>Interior Color</p>
+                    <p class="text-end">Black & White Premium</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p>Binding Type</p>
+                    <p class="text-end">Hardcover</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p>Paper Type</p>
+                    <p class="text-end">60# White</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p>Cover Finish</p>
+                    <p class="text-end">Matte</p>
+                </div>
+            </div>
+            <div class="col-md-6 px-md-5">
+                <h5 class="fw-bold">Requirements</h5>
+                <div class="d-flex justify-content-between">
+                    <p>Page Size</p>
+                    <p class="text-end">6.08 x 8.52in / 154.43mm x 216.41mm</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p>Cover Size (includes spine)</p>
+                    <p class="text-end">14.16 x 10.02in / 359.66mm x 254.51mm</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p>Spine Width</p>
+                    <p class="text-end">0.75in / 19.05mm</p>
+                </div>
+                <div class="download-btn d-flex justify-content-start">
+                    <button class="btn btn-info"><i class="fas fa-download"></i> Download Templates</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5 px-md-5 mb-2 order-costs">
+        <div class="total-cost d-flex justify-content-between">
+            <h3>Cost per Book</h3>
+            <h3>USD 15.10</h3>
+        </div>
+    </section>
+</body>
+
+</html>

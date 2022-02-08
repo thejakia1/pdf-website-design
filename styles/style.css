@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #e9edf6;
+}
+
+/* upload section styles  */
+
+.upload-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9edf6;
+    width: 60%;
+    margin: 0 auto;
+}
+.upload-button, .file-info{
+    width: 50%;
+    padding: 1rem 2rem;
+}
+/* .uploadBtn i{
+    padding-bottom: 1rem;
+} */
+
+input[type="file"]{
+    display: none;
+}
+/* .uploadBtn{
+    background-color: #ec008c;
+    color: white;
+    height: 60px;
+    width: 250px;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+} */
+
+.fa-upload{
+    padding-inline: 1rem;
+}
+
+.file-info{
+    font-weight: 700;
+    line-height: 10px;
+    color: navy;
+}
+
+/* book options style header part */
+.book-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 3rem;
+}
+
+.book-options h3{
+    color: navy;
+}
+
+.fa-globe{
+    color: #ec008c;
+}
+
+/* step 1 booksize header part  */
+.bookSize-title, .bookSize-form, .product-details, .product-images {
+    padding: 1rem 3rem;
+}
+
+.billing form, .order-note, .total-cost, .order-summary {
+    padding: 1rem 3rem;
+}
+
+.order-btn {
+    background-color: #ec008c;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* steps number styles  */
+.Step-Length {
+    width:92%;
+    background-color:#ec008c;
+    height:1.5rem;
+    text-align:center;
+    margin-inline: auto;
+    margin-bottom:1.5rem;
+    margin-top: 1rem;
+}
+
+.Step-Number {
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-0.5rem;
+    font-family:"museo-sans",sans-serif;
+    font-weight:900;
+    color:#fff;
+    background-color: navy;
+    border-radius:1.5rem;
+    border:.5rem solid #fff;
+    width:2.5rem;
+    height:2.5rem
+}
+
+/* product images styles  */
+.circle-img{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-top {
+    position: relative;
+}
+.card-top img {
+    position: block;
+    margin-top: 1rem;
+}
+.card-top .fa-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgb(32, 116, 168);
+    padding: 6px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border-radius: 50%;
+}
+
+/* fifth step images  */
+.side-img{
+    position: relative;
+    width: 10rem;
+}
+.side-img img{
+    position: block;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.side-img i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgb(32, 116, 168);
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.order-summary {
+    background-color: #e9edf6;
+    margin: 1rem 3rem;
+}
+
+.total-cost {
+    background-color: rgb(32, 116, 168);
+}
+.total-cost h3 {
+    color: white;
+}
+
+/* responsive design  */
+@media only screen and (max-width: 800px) {
+
+section {
+    overflow-x: hidden !important;
+    width: 90%;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+}
+
+.header-title{
+    font-size: 24px;
+}
+
+.upload-title{
+    font-size: 16px;
+}
+.upload-options {
+    display: block;
+    background-color: #e9edf6;
+    width: 70%;
+}
+.bookSize-title, .bookSize-form, .product-details {
+    padding: 1rem 1rem;
+}
+.billing form, .order-note, .total-cost, .order-summary {
+    padding: 1rem 1rem;
+}
+.side-img-container {
+    margin-left: 2rem;
+}
+.fa-globe{
+    width: 10%;
+}
+.book-options {
+    padding: 1rem 1rem;
+}
+
+label{
+    width: 220px;
+}
+
+.Step-Line {
+    width:90%;
+    margin: 2rem auto;
+}
+
+}
